@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%; /* this will be 16px on most browsers */
+  line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
+  position: absolute;
+  max-width: 60%;
+  left:300px;
+  float: right;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  float: left
+}
+
+figure {
+  margin: 10px;
+}
+
+.film-poster{
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  margin: 10px;
+
+}
+.film {
+  width: 50%;
+  margin: 20px auto;
+  border: 2px;
+  overflow: hidden;
+  position: relative;
+}
+
+.action-watch-later {
+    color: red;
+    z-index: 3;
+    position:  absolute;
+    top: 3%;
+    right: 3%;
+}
+.action-like {
+    color:  red;
+    float: right;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    display: block;
+}
+
+p.film-description {
+    padding-bottom: 10px;
+}
